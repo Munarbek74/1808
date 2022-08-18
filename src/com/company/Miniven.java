@@ -8,11 +8,11 @@ public class Miniven extends Car{
 
     @Override
     public void gas() {
-        System.out.println("Газ менен жакшы тартпайт");
+        System.out.println(getModel() + " Газ менен жакшы тартпайт");
     }
 
     @Override
     public void brake() {
-        System.out.println("Тормоз тепкенде добуш чыгат");
+        System.out.println(getModel() + " Тормоз тепкенде добуш чыгат");
     }
 }

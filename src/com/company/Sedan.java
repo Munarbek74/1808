@@ -8,11 +8,11 @@ public class Sedan extends Car{
 
     @Override
     public void gas() {
-        System.out.println("Газ менен да журот");
+        System.out.println(getModel() + " Газ менен да журот");
     }
 
     @Override
     public void brake() {
-        System.out.println("Тормозу жакшы кармайт");
+        System.out.println(getModel() + " Тормозу жакшы кармайт");
     }
 }
